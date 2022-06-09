@@ -1,6 +1,6 @@
 {
   "name": "angular-in-memory-web-api",
-  "version": "0.14.0",
+  "version": "0.10.1",
   "description": "An in-memory web api for Angular demos and tests",
   "main": "bundles/in-memory-web-api.umd.js",
   "module": "index.js",
@@ -15,7 +15,8 @@
     "pretest:once": "npm run build",
     "test:once": "karma start karma.conf.js --single-run",
     "tsc": "tsc",
-    "tsc:w": "tsc -w"
+    "tsc:w": "tsc -w",
+    "prepare": "gulp umd"
   },
   "repository": {
     "type": "git",
